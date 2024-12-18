@@ -226,12 +226,5 @@ Ensure you have the following installed on your system:
 
 ---
 
-## Contributing
 
-Feel free to fork this repository and submit pull requests for new features or bug fixes.
-
----
-
-## License
-This project is licensed under the MIT License.
 
