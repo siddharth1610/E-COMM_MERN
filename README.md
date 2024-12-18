@@ -1,7 +1,7 @@
 
 # eCommerce Project
 
-This is a complete **eCommerce web application** that provides a seamless shopping experience for users, allowing them to browse products, add items to the cart, and complete purchases. The project consists of two main components:
+This is a  **eCommerce web application** that provides a seamless shopping experience for users. The project consists of two main components:
 
 - **Client**: The frontend application built with React, providing an interactive user interface.
 - **Server**: The backend application powered by Node.js and Express, managing the database, API routes, and server-side logic.
