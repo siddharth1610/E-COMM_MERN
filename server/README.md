@@ -49,8 +49,8 @@ Ensure you have the following installed on your system:
    - Create a `.env` file in the root directory.
    - Add your MongoDB URI as follows:
      ```env
-     MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>
-     PORT=3000
+     uri=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>
+     
      ```
 
 4. **Run the Server**:
