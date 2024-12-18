@@ -20,6 +20,7 @@ This is an E-Commerce application backend that provides APIs for managing produc
 | Delete Product | DELETE | `/products/:id` |
 | Filter Products | GET | `/filters` |
 | Get Product Categories | GET | `/categories` |
+| Bulk Data Insert | POST | `/bulk-insert` |
 
 ---
 
