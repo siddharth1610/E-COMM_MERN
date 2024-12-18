@@ -2,6 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const products = require('./data');
 const cors = require('cors');
 
 //Dotenv
@@ -127,6 +128,20 @@ app.get("/categories", async (req, res) => {
         res.status(200).json(products);
     } catch (error) {
         res.status(500).json({ error: error.message });
+    }
+});
+
+//for insertation Bulk Data
+app.post('/bulk-insert', async (req, res) => {
+   
+    try {
+        const insertedProducts = await Product.insertMany(products);
+        res.status(201).json({
+            message: 'Products successfully added!',
+            insertedProducts
+        });
+    } catch (error) {
+        res.status(400).json({ error: error.message });
     }
 });
 
